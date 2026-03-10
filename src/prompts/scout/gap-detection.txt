@@ -1,0 +1,12 @@
+Review the comment analysis for this thread and confirm whether the identified gap is worth addressing.
+
+Thread: {{thread_title}}
+Analysis: {{comment_analysis}}
+
+Validate:
+1. Is the gap real and specific, or vague?
+2. Would a reply addressing this gap actually help the poster or future readers?
+3. Can this gap be addressed in under 150 words without linking to external products?
+4. Is the thread still active enough that a new reply would be seen?
+
+If the gap is valid, describe exactly what the reply should address. If not, explain why this should be skipped.

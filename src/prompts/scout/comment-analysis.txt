@@ -1,0 +1,26 @@
+Analyze the existing comments on this forum thread. Your job is to determine whether there is a genuine gap worth addressing with a new reply.
+
+Thread: {{thread_title}}
+URL: {{thread_url}}
+Content and replies:
+{{thread_content}}
+
+Evaluate:
+1. Total number of replies and overall quality of responses
+2. Conversation tone (hostile, friendly, technical, casual, mixed)
+3. Whether the original question has been adequately answered
+4. Specific gaps:
+   - Misinformation that could mislead someone (incorrect pricing info, wrong feature claims, outdated comparisons)
+   - Unanswered follow-up questions from the OP or others
+   - Missing context when the poster mentioned their specific use case or team size
+   - Missing practical perspective (e.g., everyone gave theoretical answers but nobody shared real-world usage)
+   - Outdated information (old pricing, deprecated features, changed integrations)
+
+Based on your analysis, recommend one of:
+- "draft" — There is a clear gap where a knowledgeable reply would add value
+- "skip" — The thread is well-covered, a new reply would be redundant
+- "monitor" — The thread is active and developing, check back later
+
+Be conservative. Most threads should be skipped. Only recommend "draft" when there is a specific, identifiable gap that an experienced user could meaningfully fill.
+
+Use the report_comment_analysis tool to return your findings.

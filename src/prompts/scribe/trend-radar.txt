@@ -1,0 +1,28 @@
+Analyze recent forum threads and web activity to identify trending topics in SaaS productivity that could become content for TrackBoard (a project tracking platform).
+
+Recent threads discovered by Scout (last 48 hours):
+{{recent_threads}}
+
+Existing content pipeline (to avoid duplicates):
+{{existing_pipeline}}
+
+Your job:
+1. Identify patterns across threads — are multiple people asking about the same thing?
+2. Spot emerging topics (new tool launches, workflow methodology shifts, integration announcements)
+3. Find content gaps — questions that keep coming up but have no good definitive resource online
+4. Score each idea by:
+   - Timeliness: Is this trending NOW or evergreen?
+   - Audience interest: How many PMs and team leads would care?
+   - Content gap: Does a good resource already exist, or is this underserved?
+
+For each content idea, specify:
+- A clear title
+- Content type (blog_post, state_guide, social_post, forum_seed, email_campaign)
+- Which threads or sources inspired it
+- A suggested angle that differentiates from existing content
+- Target keywords for SEO
+- Priority level
+
+Return 3-5 of the strongest ideas. Skip anything too similar to items already in the pipeline.
+
+Use the report_trends tool to return your findings.

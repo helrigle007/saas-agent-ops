@@ -1,6 +1,6 @@
 # saas-agent-ops
 
-<p align="center"><img src="docs/dashboard.png" width="720" /></p>
+<p align="center"><img src="docs/saas-agent-ops-cover.png" width="720" /></p>
 
 A multi-agent operations system that autonomously handles growth tasks for a SaaS product — community monitoring, content creation, cold outreach, email triage, SEO intelligence, and user lifecycle emails. Every output queues for human review before any action is taken.
 
